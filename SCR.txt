@@ -9,6 +9,6 @@ License File:                bsd.txt
 Type of Content:             Source code
 Description and comments:    FreeModbus Library
 Release Location:            https://github.com/NXPmicro/FreeModbus.git
-Origin:                      SOEM (BSD-3-Clause) - https://github.com/OpenEtherCATsociety/soem
+Origin:                      FreeModbus (BSD-3-Clause) - https://github.com/cwalter-at/freemodbus/tree/master
                              NXP (BSD 3-clause)
                              
