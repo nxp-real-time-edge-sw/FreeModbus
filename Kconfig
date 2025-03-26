@@ -1,0 +1,30 @@
+menu "FreeModbus"
+    config MCUX_COMPONENT_middleware.freemodbus.rtu
+        bool "rtu"
+
+    if MCUX_COMPONENT_middleware.freemodbus.rtu
+        choice
+            prompt "rtu anyOf 1"
+            default MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.rtu.server_DEPEND_ANYOF_1_OPTION_1
+            config MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.rtu.server_DEPEND_ANYOF_1_OPTION_1
+                bool "Select MCUX_COMPONENT_middleware.freemodbus.rtu.server"
+            config MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.rtu.client_DEPEND_ANYOF_1_OPTION_2
+                bool "Select MCUX_COMPONENT_middleware.freemodbus.rtu.client"
+                select MCUX_COMPONENT_middleware.freemodbus.rtu.client
+        endchoice
+    endif
+    config MCUX_COMPONENT_middleware.freemodbus.tcp
+        bool "tcp"
+
+    if MCUX_COMPONENT_middleware.freemodbus.tcp
+        choice
+            prompt "tcp anyOf 1"
+            default MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.tcp.server_DEPEND_ANYOF_1_OPTION_1
+            config MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.tcp.server_DEPEND_ANYOF_1_OPTION_1
+                bool "Select MCUX_COMPONENT_middleware.freemodbus.tcp.server"
+            config MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.tcp.client_DEPEND_ANYOF_1_OPTION_2
+                bool "Select MCUX_COMPONENT_middleware.freemodbus.tcp.client"
+                select MCUX_COMPONENT_middleware.freemodbus.tcp.client
+        endchoice
+    endif
+endmenu
