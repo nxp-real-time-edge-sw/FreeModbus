@@ -42,17 +42,6 @@ PR_BEGIN_EXTERN_C
  *
  * All of these settings are available in the file <code>mbconfig.h</code>
  */
-/*! \addtogroup modbus_cfg
- *  @{
- */
-/*! \brief If Modbus ASCII support is enabled. */
-#define MB_ASCII_ENABLED                        (  1 )
-
-/*! \brief If Modbus RTU support is enabled. */
-#define MB_RTU_ENABLED                          (  1 )
-
-/*! \brief If Modbus TCP support is enabled. */
-#define MB_TCP_ENABLED                          (  0 )
 
 /*! \brief The character timeout value for Modbus ASCII.
  *

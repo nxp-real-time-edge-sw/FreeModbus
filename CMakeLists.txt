@@ -1,4 +1,4 @@
-# This is NXP version of soem CMakeLists.txt, the soem upstream version is not used.
+# This is NXP version of freemodbus CMakeLists.txt, the freemodbus upstream version is not used.
 
 if (CONFIG_MCUX_COMPONENT_middleware.freemodbus)
     mcux_add_include(
@@ -8,12 +8,13 @@ if (CONFIG_MCUX_COMPONENT_middleware.freemodbus)
 
 endif()
 
-if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.rtu.server)
+if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.rtu)
     mcux_add_include(
         INCLUDES modbus
         INCLUDES modbus/functions
         INCLUDES modbus/include
         INCLUDES modbus/rtu
+        INCLUDES modbus/ascii
     )
     mcux_add_source(
         SOURCES
@@ -36,6 +37,8 @@ if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.rtu.server)
             modbus/rtu/mbcrc.h
             modbus/rtu/mbrtu.c
             modbus/rtu/mbrtu.h
+            modbus/ascii/mbascii.c
+            modbus/ascii/mbascii.c
     )
 endif ()
 
