@@ -113,6 +113,12 @@ PR_BEGIN_EXTERN_C
 /*! \brief If the <em>Read/Write Multiple Registers</em> function should be enabled. */
 #define MB_FUNC_READWRITE_HOLDING_ENABLED       (  1 )
 
+/*! \brief If the <em>Write LED status</em> function should be enabled. */
+#define MB_FUNC_WRITE_LED_ENABLED               (  1 )
+
+/*! \brief If the <em>Read LED status</em> function should be enabled. */
+#define MB_FUNC_READ_LED_ENABLED                (  1 )
+
 /*! @} */
 #ifdef __cplusplus
     PR_END_EXTERN_C

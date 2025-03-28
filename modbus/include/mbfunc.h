@@ -73,6 +73,14 @@ eMBException    eMBFuncReadDiscreteInputs( UCHAR * pucFrame, USHORT * usLen );
 eMBException    eMBFuncReadWriteMultipleHoldingRegister( UCHAR * pucFrame, USHORT * usLen );
 #endif
 
+#if MB_FUNC_WRITE_LED_ENABLED > 0
+eMBException    eMBFuncWriteLedStatus( uint8_t * pucFrame, uint16_t * usLen );
+#endif
+
+#if MB_FUNC_READ_LED_ENABLED > 0
+eMBException    eMBFuncReadLedStatus( uint8_t * pucFrame, uint16_t * usLen );
+#endif
+
 #ifdef __cplusplus
 PR_END_EXTERN_C
 #endif
