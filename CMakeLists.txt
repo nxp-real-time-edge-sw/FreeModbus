@@ -42,7 +42,7 @@ if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.rtu)
     )
 endif ()
 
-if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.tcp.server)
+if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.tcp)
     mcux_add_include(
         INCLUDES modbus
         INCLUDES modbus/functions
