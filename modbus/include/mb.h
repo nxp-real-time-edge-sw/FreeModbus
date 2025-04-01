@@ -346,6 +346,9 @@ eMBErrorCode    eMBRegInputCB( UCHAR * pucRegBuffer, USHORT usAddress,
 eMBErrorCode    eMBRegHoldingCB( UCHAR * pucRegBuffer, USHORT usAddress,
                                  USHORT usNRegs, eMBRegisterMode eMode );
 
+eMBErrorCode    eMBLedStatusCB( UCHAR * pucRegBuffer, USHORT usAddress,
+                                    USHORT usNRegs, eMBRegisterMode eMode );
+
 /*! \ingroup modbus_registers
  * \brief Callback function used if a <em>Coil Register</em> value is
  *   read or written by the protocol stack. If you are going to use
