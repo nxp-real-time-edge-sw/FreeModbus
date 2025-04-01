@@ -11,6 +11,19 @@ menu "FreeModbus"
                 bool "Select MCUX_COMPONENT_middleware.baremetal"
         endchoice
     endif
+
+    config MCUX_COMPONENT_middleware.freemodbus.rtuc
+        bool "rtuc"
+        
+    if MCUX_COMPONENT_middleware.freemodbus.rtuc
+        choice
+            prompt "rtuc anyOf 1"
+            default MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.rtuc_DEPEND_ANYOF_1_OPTION_1
+            config MCUX_DEPENDENCY_COMPONENT_middleware.freemodbus.rtuc_DEPEND_ANYOF_1_OPTION_1
+                bool "Select MCUX_COMPONENT_middleware.baremetal"
+        endchoice
+    endif
+
     config MCUX_COMPONENT_middleware.freemodbus.tcp
         bool "tcp"
         

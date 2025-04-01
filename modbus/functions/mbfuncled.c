@@ -9,6 +9,9 @@
 #include "string.h"
 #include <stdint.h>
 
+/* ----------------------- Platform includes --------------------------------*/
+#include "port.h"
+
 /* ----------------------- Modbus includes ----------------------------------*/
 #include "mb.h"
 #include "mbframe.h"
