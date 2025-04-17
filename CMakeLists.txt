@@ -39,7 +39,7 @@ if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.rtu)
             modbus/rtu/mbrtu.c
             modbus/rtu/mbrtu.h
             modbus/ascii/mbascii.c
-            modbus/ascii/mbascii.c
+            modbus/ascii/mbascii.h
     )
 endif ()
 
@@ -74,7 +74,7 @@ if (CONFIG_MCUX_COMPONENT_middleware.freemodbus.rtuc)
             modbus/rtu/mbrtu_m.c
             modbus/rtu/mbrtu.h
             modbus/ascii/mbascii.c
-            modbus/ascii/mbascii.c
+            modbus/ascii/mbascii.h
     )
 endif ()
 
