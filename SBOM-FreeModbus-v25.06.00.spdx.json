@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-05-19T06:47:02Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "FreeModbus-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/2deb14b0-c2f7-418b-b5ef-f9e1f9512fc3",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-2deb14b0-c2f7-418b-b5ef-f9e1f9512fc3",
+      "name": "FreeModbus",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-package-cc863b4a-c9ce-43c9-845e-d1eb00ff9f2f",
+      "name": "FreeModbus",
+      "versionInfo": "1.6",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "homepage": "https://www.embedded-experts.at/en/freemodbus/",
+      "downloadLocation": "https://www.embedded-experts.at/en/freemodbus-downloads/",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-2deb14b0-c2f7-418b-b5ef-f9e1f9512fc3"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-2deb14b0-c2f7-418b-b5ef-f9e1f9512fc3",
+      "relationshipType": "DYNAMIC_LINK",
+      "relatedSpdxElement": "SPDXRef-package-cc863b4a-c9ce-43c9-845e-d1eb00ff9f2f"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-2deb14b0-c2f7-418b-b5ef-f9e1f9512fc3",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-cc863b4a-c9ce-43c9-845e-d1eb00ff9f2f"
+    }
+  ]
+}
