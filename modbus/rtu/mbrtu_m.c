@@ -339,6 +339,8 @@ xMBMasterRTUTransmitFSM( void )
             }
         }
         break;
+    default:
+        break;
     }
 
     return xNeedPoll;
