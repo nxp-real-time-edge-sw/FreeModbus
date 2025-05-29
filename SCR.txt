@@ -1,0 +1,13 @@
+NXP Software Content Register
+
+--------------------------------------------
+
+Package:                     FreeModbus.git
+Version:                     1.0.0
+Outgoing License:            BSD-3-Clause
+License File:                bsd.txt
+Type of Content:             Source code
+Description and comments:    FreeModbus Library
+Release Location:            https://github.com/NXPmicro/FreeModbus.git
+Origin:                      freemodbus (BSD-3-Clause) - https://github.com/RT-Thread-packages/freemodbus/tree/master
+                             NXP (BSD 3-clause)
