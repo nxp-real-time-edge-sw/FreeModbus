@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-08-04T04:48:03Z",
+    "created": "2025-09-01T12:55:47Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.20"
   },
-  "name": "FreeModbus-v25.09.00-pvw2",
+  "name": "FreeModbus-v25.09.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/4dbb8d4f-1f10-4b33-8f14-118e7b049b30",
+  "documentNamespace": "https://nxp.com/spdx/159de193-1f9e-47bb-8ada-f90486edd4c4",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-4dbb8d4f-1f10-4b33-8f14-118e7b049b30",
+      "SPDXID": "SPDXRef-package-159de193-1f9e-47bb-8ada-f90486edd4c4",
       "name": "FreeModbus",
-      "versionInfo": "v25.09.00-pvw2",
+      "versionInfo": "v25.09.00",
       "licenseConcluded": "(BSD-3-Clause)",
       "licenseDeclared": "(BSD-3-Clause)",
       "downloadLocation": "https://github.com/nxp-real-time-edge-sw/FreeModbus",
@@ -42,15 +42,10 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-4dbb8d4f-1f10-4b33-8f14-118e7b049b30"
+      "relatedSpdxElement": "SPDXRef-package-159de193-1f9e-47bb-8ada-f90486edd4c4"
     },
     {
-      "spdxElementId": "SPDXRef-package-4dbb8d4f-1f10-4b33-8f14-118e7b049b30",
-      "relationshipType": "DYNAMIC_LINK",
-      "relatedSpdxElement": "SPDXRef-package-cc863b4a-c9ce-43c9-845e-d1eb00ff9f2f"
-    },
-    {
-      "spdxElementId": "SPDXRef-package-4dbb8d4f-1f10-4b33-8f14-118e7b049b30",
+      "spdxElementId": "SPDXRef-package-159de193-1f9e-47bb-8ada-f90486edd4c4",
       "relationshipType": "CONTAINS",
       "relatedSpdxElement": "SPDXRef-package-cc863b4a-c9ce-43c9-845e-d1eb00ff9f2f"
     }
